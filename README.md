@@ -43,15 +43,16 @@ This question is mainly important to optimize risk management for investors and 
    - Source: Kaggle dataset: `https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata`
   
 ## 1. Load IMDb datasets
-
 Keep only movies
+
 
 <img width="301" height="287" alt="image" src="https://github.com/user-attachments/assets/324f71a7-e721-4a50-a399-ef946c4947fd" />
 <img width="301" height="192" alt="image" src="https://github.com/user-attachments/assets/48712458-cc45-4e38-b36c-a9a72b722866" />
 
 ### Merge IMDb basics + ratings and basic cleaning
-
 Convert types and drop rows with critical NaNs
+
+
 
 <img width="317" height="331" alt="image" src="https://github.com/user-attachments/assets/e433ce39-68ea-411c-bc46-35263d990d03" />
 
@@ -59,8 +60,9 @@ Convert types and drop rows with critical NaNs
 <img width="358" height="450" alt="image" src="https://github.com/user-attachments/assets/277c87a3-def3-4cbf-8cf8-1d61bd7c1f92" />
 
 ### Select key TMDB columns and clean
-
 We keep core columns for EDA + modeling. Additionally, we replace zeros in budget/revenue with NaN, conver types, parse release_date and extract year, and drop rows with missing basic info.
+
+
 
 <img width="403" height="282" alt="image" src="https://github.com/user-attachments/assets/3a17318c-8c47-49be-9501-171846779515" />
 
